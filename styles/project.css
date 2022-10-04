@@ -33,15 +33,14 @@ header h2 {
 }
 header img{
     float: left;
-    text-shadow: 2px 2px 2px rgb, (128, 0, 0);
+    text-shadow: 2px 2px 2px rgb(128, 0, 0);
     margin-left: 2em;
 }
 
 .shadow{
     /*text-shadow: 2px 2px 2px var(--global-color-1);*/
-    text-shadow: 2px 2px 2px rgb (128, 0, 0);
+    text-shadow: 2px 2px 2px rgb(red, green, blue);
 }
-
 
 article {
     width: 70%;
@@ -89,4 +88,6 @@ p.fixed {
     right: 0%;
     border: 3px solid darkgreen;
     background-color: lightgreen;
+    padding: 2em;
+
 }
