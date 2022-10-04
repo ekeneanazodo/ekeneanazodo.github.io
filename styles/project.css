@@ -3,51 +3,52 @@ html{
 }
 
 body {
-font-family:Arial, Helvetica, sans-serif;
-font-size: 100%;
-margin-left: 10px;
-width: 1000px;
-margin: 15px auto;
-padding: 15px 1.5em;
-border: 1px solid black;
-border-radius: 25px;
-box-shadow: 5px 5px 0 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 1000px;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
 }
-a:focus, a:hover{
+
+a:focus, a:hover {
     font-style: italic;
     color: orangered;
     border: 3px blue;
     border-style: dotted solid;
 }
 /* the styles for the header */
-header h1{
+header h1 {
     font-size: 175%;
-    color:maroon
+    color:maroon;
     text-indent: 30px;
 }
-header h2{
+header h2 {
     font-size: 130%;
-    color: #800000
+    color: #800000;
     text-indent: 30px;
 }
 header img{
     float: left;
-    text-shadow: 2px 2px 2px rgb(red, green, blue), (128, 0, 0);
+    text-shadow: 2px 2px 2px rgb, (128, 0, 0);
     margin-left: 2em;
 }
 
 .shadow{
     /*text-shadow: 2px 2px 2px var(--global-color-1);*/
-    text-shadow: 2px 2px 2px rgb(red, green, blue), (128, 0, 0);
+    text-shadow: 2px 2px 2px rgb (128, 0, 0);
 }
 
 
 article {
-    width: 70%
+    width: 70%;
     float: left;
     column-count: 2;
     column-rule: 2px dotted maroon;
-    column-gap: 2em
+    column-gap: 2em;
     margin-left: 2em;
 
 }
