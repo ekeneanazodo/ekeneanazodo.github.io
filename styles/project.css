@@ -82,12 +82,12 @@ footer p.copyright{
     font-size: 80%;
 }
 p.fixed {
+    background-color: #90ee90;
     width: auto;
     position: fixed;
     bottom: 35%;
     right: 0%;
     border: 3px solid darkgreen;
-    background-color: lightgreen;
     padding: 2em;
 
 }
