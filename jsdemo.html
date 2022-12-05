@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The Test Scores App</h1>
+    <script src="test_scores.js"></script>
+    <h1>The Miles Per Gallon Calculator</h1>
+    <script>
+        const miles = parseInt(prompt("Enter miles drives"));
+        const gallons = parseInt(prompt("Enter gallons of gas used"));
+        const mpg = parseFloat(miles/gallons);
+        const html2 = `<p>Miles: ${miles}</p>
+                        <p>Gallons: ${gallons}</p>
+                        <p>MPG: ${mpg.toFixed(2)}</p>`;
+        document.write(html2);                
+    </script>
+    <h1>The Area of Gallon a Rectangle</h1>
+    <script>
+        const width = parseFloat(prompt("Enter width"));
+        const height = parseFloat(prompt("Enter height"));
+        const area = parseFloat(width*height);
+        const html3 = `<p>width: ${width}</p>
+                        <p>height: ${height}</p>
+                        <p>area: ${area.toFixed(3)}</p>`;
+        document.write(html3);
+    </script>
+
+
+</body>
+</html>
