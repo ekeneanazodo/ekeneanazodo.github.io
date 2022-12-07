@@ -9,7 +9,7 @@
 <body>
     <h1>The Test Scores App</h1>
     <script src="test_scores.js"></script>
-    <h1>The Miles Per Gallon Calculator</h1>
+    <h2>The Miles Per Gallon Calculator</h2>
     <script>
         const miles = parseInt(prompt("Enter miles drives"));
         const gallons = parseInt(prompt("Enter gallons of gas used"));
@@ -19,17 +19,16 @@
                         <p>MPG: ${mpg.toFixed(2)}</p>`;
         document.write(html2);                
     </script>
-    <h1>The Area of Gallon a Rectangle</h1>
+    <h3>The Rectangle Area Calculator</h3>
     <script>
-        const width = parseFloat(prompt("Enter width"));
-        const height = parseFloat(prompt("Enter height"));
-        const area = parseFloat(width*height);
-        const html3 = `<p>width: ${width}</p>
-                        <p>height: ${height}</p>
+        let width = parseFloat(prompt("Enter width of rectangle"));
+        let length = parseFloat(prompt("Enter length of rectangle"));
+        let area = parseFloat(width*height);
+        let html3 = `<p>width: ${width}</p>
+                        <p>length: ${length}</p>
                         <p>area: ${area.toFixed(3)}</p>`;
         document.write(html3);
     </script>
-
 
 </body>
 </html>
