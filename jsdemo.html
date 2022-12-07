@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
 </head>
 <body>
-    <h1>The Test Scores App</h1>
-    <script src="test_scores.js"></script>
-    <h2>The Miles Per Gallon Calculator</h2>
-    <script>
-        const miles = parseInt(prompt("Enter miles drives"));
-        const gallons = parseInt(prompt("Enter gallons of gas used"));
-        const mpg = parseFloat(miles/gallons);
-        const html2 = `<p>Miles: ${miles}</p>
-                        <p>Gallons: ${gallons}</p>
-                        <p>MPG: ${mpg.toFixed(2)}</p>`;
-        document.write(html2);                
-    </script>
-    <h3>The Rectangle Area Calculator</h3>
-    <script>
-        let width = parseFloat(prompt("Enter width of rectangle"));
-        let length = parseFloat(prompt("Enter length of rectangle"));
-        let area = parseFloat(width*height);
-        let html3 = `<p>width: ${width}</p>
-                        <p>length: ${length}</p>
-                        <p>area: ${area.toFixed(3)}</p>`;
-        document.write(html3);
-    </script>
-
+   <h1>The Test Scores App</h1>
+<script src="test_score.js"></script>  
+<h2>The Miles Per Gallon Calculator</h2>
+<script>
+       const miles = parseInt(prompt("Enter miles driven"));
+       const gallons = parseInt(prompt("Enter gallons of gas used"));
+       const mpg = parseFloat(miles/gallons);
+       const html2 = `<p>Miles: ${miles}</p>
+                       <p>Gallons: ${gallons}</p>
+                       <p>MPG: ${mpg.toFixed(2)}</p>`;
+       document.write(html2);
+</script>   
+   <h3>The Rectangle Area Calculator</h3>
+<script>
+   let length = parseFloat(prompt("Enter Length of Rectangle"));
+ 
+   let width = parseFloat(prompt("Enter Width of Rectangle"));
+ 
+   let area = parseFloat((length)*(width));
+ 
+   let html3 = `<p>Length = ${length}</p>
+              <p>Width = ${width}</p>
+              <p>Area = ${area.toFixed(3)}</p`;
+document.write(html3);
+</script>
 </body>
 </html>
